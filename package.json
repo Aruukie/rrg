@@ -1,0 +1,12 @@
+{
+  "name": "rileyraigan-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website for Riley Ragains",
+  "main": "index.html",
+  "scripts": {
+    "dev": "live-server --port=3000 --entry-file=index.html"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
