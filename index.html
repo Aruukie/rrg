@@ -14,11 +14,11 @@
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="sources/Logo (1).png">
 
-  <!-- Google Fonts: Anton (Impact-style), Oswald (structural sans), Plus Jakarta Sans (body) -->
+  <!-- Google Fonts: Oi (primary headings), Montserrat (secondary/body) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Oi&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap"
     rel="stylesheet">
 
 
@@ -496,87 +496,43 @@
       <header class="section-header scroll-reveal">
         <span class="section-badge">Get In Touch</span>
         <h2 class="section-title">INQUIRIES & COMMISSIONS</h2>
-        <p class="section-subtitle">Interested in collaborating on a design concept or photography commission? Leave a
-          message.</p>
+        <p class="section-subtitle">Interested in collaborating on a design concept or photography commission? Reach out directly or connect on creative platforms.</p>
       </header>
 
-      <div class="contact-grid">
-        <!-- Contact Form Column -->
-        <div class="contact-form-column scroll-reveal">
-          <form class="contact-form" id="contactForm" action="#" method="POST" novalidate>
-            <div class="form-row">
-              <div class="form-group floating-group">
-                <input type="text" id="contactName" name="name" class="form-control" placeholder=" " required>
-                <label for="contactName">Name</label>
-                <span class="error-msg">Please enter your name</span>
-              </div>
-              <div class="form-group floating-group">
-                <input type="email" id="contactEmail" name="email" class="form-control" placeholder=" " required>
-                <label for="contactEmail">Email Address</label>
-                <span class="error-msg">Please enter a valid email address</span>
-              </div>
-            </div>
+      <div class="contact-centered scroll-reveal">
+        <div class="contact-card">
+          <h3>Direct Contact</h3>
+          <p>Feel free to reach out via email for any inquiries or commissions:</p>
 
-            <div class="form-group floating-group">
-              <input type="text" id="contactSubject" name="subject" class="form-control" placeholder=" " required>
-              <label for="contactSubject">Subject</label>
-              <span class="error-msg">Please enter a subject</span>
-            </div>
+          <a href="mailto:r.piper.ragains@gmail.com" class="direct-email-link" id="directEmailLink">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="email-icon">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+            </svg>
+            <span>r.piper.ragains@gmail.com</span>
+          </a>
 
-            <div class="form-group floating-group">
-              <textarea id="contactMessage" name="message" class="form-control" rows="6" placeholder=" "
-                required></textarea>
-              <label for="contactMessage">Message</label>
-              <span class="error-msg">Please enter your message</span>
-            </div>
+          <h3>Follow the Journey</h3>
+          <p>View working process highlights and daily snapshots on creative platforms:</p>
 
-            <button type="submit" class="submit-btn" id="contactSubmit">
-              <span class="btn-text">Send Message</span>
-              <span class="btn-success-icon">&#10003; Sent</span>
-            </button>
-          </form>
-        </div>
-
-        <!-- Direct Contact Details Column -->
-        <div class="contact-details-column scroll-reveal">
-          <div class="contact-card">
-            <h3>Direct Channels</h3>
-            <p>If you prefer directly writing, feel free to use the following email:</p>
-
-            <a href="mailto:rileyragains.art@gmail.com" class="direct-email-link">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="email-icon">
-                <path stroke-linecap="round" stroke-linejoin="round"
-                  d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
-              </svg>
-              <span>rileyragains.art@gmail.com</span>
+          <div class="social-links-grid">
+            <a href="https://www.instagram.com/curiosity.killed.the.ryann?igsh=MXdteWZteWFsanphcg%3D%3D&utm_source=qr"
+              class="social-link" aria-label="Instagram Profile" id="socialInstagram">
+              <span>Instagram</span>
             </a>
-
-            <h3>Follow the Journey</h3>
-            <p>View working process highlights and daily snapshots on creative platforms:</p>
-
-            <div class="social-links-grid">
-              <a href="#" class="social-link" aria-label="Instagram Profile" id="socialInstagram">
-                <span>Instagram</span>
-              </a>
-              <a href="#" class="social-link" aria-label="LinkedIn Profile" id="socialLinkedIn">
-                <span>LinkedIn</span>
-              </a>
-              <a href="#" class="social-link" aria-label="Behance Portfolio" id="socialBehance">
-                <span>Behance</span>
-              </a>
-            </div>
+            <a href="https://www.linkedin.com/in/riley-ragains-835159224?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+              class="social-link" aria-label="LinkedIn Profile" id="socialLinkedIn">
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://www.behance.net/riley-pragains" class="social-link" aria-label="Behance Portfolio" id="socialBehance">
+              <span>Behance</span>
+            </a>
           </div>
         </div>
       </div>
+    </div>
   </section>
 
-  <!-- Toast Alert for Form Status -->
-  <div class="toast-notification hidden" id="toastNotification" role="alert" aria-live="polite">
-    <div class="toast-content">
-      <span class="toast-icon">&#10003;</span>
-      <span class="toast-message">Message sent successfully! Riley will get back to you soon.</span>
-    </div>
-  </div>
 
   <!-- Footer -->
   <footer class="main-footer">
